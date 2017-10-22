@@ -100,6 +100,7 @@ gulp.task('serve', () => {
 
     gulp.watch([
       'app/*.html',
+      'app/partials/**/*',
       'app/images/**/*',
       '.tmp/fonts/**/*'
     ]).on('change', reload);

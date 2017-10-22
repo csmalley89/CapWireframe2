@@ -25,10 +25,30 @@
     </nav>
 
     <div class="row">
+<!--                 <div ng-repeat="school in schools">
+                  <h6>{{school.college}}</h6>
+                </div> -->
 
       <!-- SIDE NAV BAR -->
+    <div class="col s3 m2">
+      <ul class="side-nav fixed grey darken-1">
+        <li class="no no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header active">School<i class="material-icons white-text">person pin</i></a>
+              <div class="collapsible-body grey darken-1">
+                <ul ng-repeat="school in schools">
+                  <li class="green-text">{{school.college}}</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
 
-      <div class="col s3 m2">
+
+<!--       <div class="col s3 m2">
         <ul class="side-nav fixed grey darken-1">
           <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
@@ -67,5 +87,5 @@
           </li>
         </ul>
 
-      </div>
+      </div> -->
   </div>
