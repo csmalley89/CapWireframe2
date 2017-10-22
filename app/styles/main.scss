@@ -1,0 +1,49 @@
+// bower:scss
+// endbower
+
+body > div.row > div.col.s3 > ul.side-nav.fixed {
+  top: inherit;
+}
+
+body > div.row > div.col.s3 > ul > li > ul > li > a {
+  color: white;
+}
+
+body > div.row > div.col.s3 > ul > li > ul > li > div > ul > li > a {
+  color: white;
+}
+
+.dropDownDest {
+  color: white;
+  /*text-align: -webkit-match-parent;*/
+}
+
+/*nav.nav-extended .nav-content{
+
+}*/
+
+.cardImg {
+  position: inherit;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+  left: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -10px
+}
+
+.card-title {
+  display: contents;
+}
+
+.card .card-content .card-title {
+    display: inline-table;
+}
+
+.bioCard {
+  height: inherit;
+  width: 38vw;
+  margin-left: auto;
+
+}
